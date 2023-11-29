@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
           <h1>Nodezitto</h1>
           <form action='/message' method='POST'>
             <label for='message'>Write your message</label>
-            <input type='text' id='message' name='message' />
+            <input type='text' id='message' name='message'>
             <button type='submit'>Send</button>
           </form>
         </body>
